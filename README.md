@@ -4,7 +4,7 @@ Log2HTML is a application for VkScrapper. For convert your log to simple HTML pa
 
 ## Libraries Installation
 
-Use the package manager [pip](https://pip.pypa.io/en/stable/) to install.
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install libraries.
 
 ```python
 pip install argparse | pip install progress.bar | pip install Bar
@@ -13,19 +13,20 @@ pip install argparse | pip install progress.bar | pip install Bar
 ## Usage
 
 ### Before you start
-Add your own HTML code to defaut.txt
-For set log-taple place add to code line:
+Add your own HTML code to defaut.txt.
+
+For set log-table place add to code this line:
 ```html
 <!--LOG-TABLE-HERE-->
 ```
 
 ### Converting
 For run a converter:
-```python
+```bash
 py log2html.py -f log_file.txt
 ```
 For see help:
-```python
+```bash
 py log2html.py -h
 ```
 
