@@ -7,7 +7,9 @@ Log2HTML is a application for VkScrapper. For convert your log to simple HTML pa
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to install libraries.
 
 ```python
-pip install argparse | pip install progress.bar | pip install Bar
+pip install argparse
+pip install progress.bar
+pip install Bar
 ```
 
 ## Usage
