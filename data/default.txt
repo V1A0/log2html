@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>UR SITE</title>
+    <style type="text/css"></style>
+    <link href="/style.css" rel="stylesheet" type="text/css" media="all">
+  </head>
+  
+  <body>
+  <dev id="header">
+  <h1> UrS | Statistic</h1>
+  </dev>
+
+  <dev id="main">
+    <p>At this page you can found statistics about anon user</p>
+    <table style="text-align:left">
+    <tr><th>Time</th><th></th><th>Status</th></tr>
+    <!--LOG-TABLE-HERE-->
+    </table>
+	<br><br><strong>About:</strong>
+     <p><span style="background:Green; color:White">Online - online activity detected</span></p>
+     <p><span style="background:Khaki; color:Black">10 min ago - user is offline now</span></p>
+     <p><span style="background:Black; color:Red">NO DATA - was no monitored or network error</span></p>
+	 <p>Author: <a href="https://github.com/V1A0">V1A0 | https://github.com/V1A0</a></p>
+  </dev>
+
+  </body>
+</html>
